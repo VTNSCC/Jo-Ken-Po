@@ -1,0 +1,58 @@
+.texto{
+text-shadow: 0 0 3px #FFFFFF, 0 0 20px #FFFFFF;
+
+background: linear-gradient(blue,#e0c062);
+border:2px solid black;
+}
+
+div#ibg{
+    background-image: url(https://pmcdeadline2.files.wordpress.com/2017/09/rock-paper-scissors-entertainment-logo.jpg?w=297&h=119);
+    background-size:300px 150px;
+    display: flex;
+    text-align: center;
+}
+div#ppedra {
+    width: 33.3%;
+    float: left;
+}
+
+div#ptesoura{
+    width: 33.3%;
+    float: right;
+}
+
+div#ppapel {
+    width: 33.3%;
+    float: right;
+}
+
+#Vcescolheus{
+	text-shadow: 0 0 3px #FF0000, 0 0 20px #FFFFFF;
+	text-align: center;
+	font-size: 30px;
+	background-color: hsla(89, 43%, 51%);
+	font-family:Arial, Helvetica, sans-serif;
+
+
+}
+#result {
+    text-shadow: 0 0 3px #FFFFFF, 0 0 20px #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(http://vivekanandacollege.edu.in/wp-content/uploads/2016/05/plain-green-wallpaper-wide.jpg);
+    color: #000000;
+    background-color: #FFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#Choice {
+    text-shadow: 0 0 3px #FFFFFF, 0 0 20px #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+     background-image: url(http://vivekanandacollege.edu.in/wp-content/uploads/2016/05/plain-green-wallpaper-wide.jpg);
+    color: #000000;
+    background-color: #FFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ function Myway() {
+            alert("Rules:\n You will play agaist the computer!\n - Rock X Scissors= Rock wins!\n - Scissors X Paper= Scissors wins!\n - Paper X Rock= Paper wins!\n ")
+        }
