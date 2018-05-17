@@ -1,7 +1,7 @@
 .texto{
 text-shadow: 0 0 3px #FFFFFF, 0 0 20px #FFFFFF;
 
-background: linear-gradient(blue,#e0c062);
+background: linear-gradient(blue,#e0c062,white);
 border:2px solid black;
 }
 
@@ -40,7 +40,7 @@ div#ppapel {
     text-align: center;
     font-size: 20px;
     background-image: url(http://vivekanandacollege.edu.in/wp-content/uploads/2016/05/plain-green-wallpaper-wide.jpg);
-    color: white;
+    color: #000000;
     background-color: #FFFFF;
     font-family:Arial, Helvetica, sans-serif;
 }
